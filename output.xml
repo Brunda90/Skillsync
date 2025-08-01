@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.12.6 on win32)" generated="2025-07-18T01:28:14.088329" rpa="false" schemaversion="5">
+<suite id="s1" name="Attendance" source="C:\Users\Admin\OneDrive\Desktop\Skillsync\skillsync-frontend\src\tests\attendance.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2025-07-18T01:28:14.421758" level="INFO">Opening browser 'chrome' to base url 'http://localhost:3000/attendance'.</msg>
+<msg time="2025-07-18T01:28:21.224570" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-07-18T01:28:21.224570" level="FAIL">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7717b6f95+76917]
+	GetHandleVerifier [0x0x7ff7717b6ff0+77008]
+	(No symbol) [0x0x7ff771569dea]
+	(No symbol) [0x0x7ff771566ba5]
+	(No symbol) [0x0x7ff771557879]
+	(No symbol) [0x0x7ff771559631]
+	(No symbol) [0x0x7ff771557b96]
+	(No symbol) [0x0x7ff7715575f6]
+	(No symbol) [0x0x7ff7715572ba]
+	(No symbol) [0x0x7ff771554e8b]
+	(No symbol) [0x0x7ff77155570c]
+	(No symbol) [0x0x7ff77156dd9a]
+	(No symbol) [0x0x7ff77161143e]
+	(No symbol) [0x0x7ff7715e846a]
+	(No symbol) [0x0x7ff77161065c]
+	(No symbol) [0x0x7ff7715e8243]
+	(No symbol) [0x0x7ff7715b1431]
+	(No symbol) [0x0x7ff7715b21c3]
+	GetHandleVerifier [0x0x7ff771a8d2cd+3051437]
+	GetHandleVerifier [0x0x7ff771a87923+3028483]
+	GetHandleVerifier [0x0x7ff771aa58bd+3151261]
+	GetHandleVerifier [0x0x7ff7717d185e+185662]
+	GetHandleVerifier [0x0x7ff7717d971f+218111]
+	GetHandleVerifier [0x0x7ff7717bfb14+112628]
+	GetHandleVerifier [0x0x7ff7717bfcc9+113065]
+	GetHandleVerifier [0x0x7ff7717a6c98+10616]
+	BaseThreadInitThunk [0x0x7ffce039e8d7+23]
+	RtlUserThreadStart [0x0x7ffce179c34c+44]
+</msg>
+<arg>${ATTEND_URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-07-18T01:28:14.421758" elapsed="6.804905">WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7717b6f95+76917]
+	GetHandleVerifier [0x0x7ff7717b6ff0+77008]
+	(No symbol) [0x0x7ff771569dea]
+	(No symbol) [0x0x7ff771566ba5]
+	(No symbol) [0x0x7ff771557879]
+	(No symbol) [0x0x7ff771559631]
+	(No symbol) [0x0x7ff771557b96]
+	(No symbol) [0x0x7ff7715575f6]
+	(No symbol) [0x0x7ff7715572ba]
+	(No symbol) [0x0x7ff771554e8b]
+	(No symbol) [0x0x7ff77155570c]
+	(No symbol) [0x0x7ff77156dd9a]
+	(No symbol) [0x0x7ff77161143e]
+	(No symbol) [0x0x7ff7715e846a]
+	(No symbol) [0x0x7ff77161065c]
+	(No symbol) [0x0x7ff7715e8243]
+	(No symbol) [0x0x7ff7715b1431]
+	(No symbol) [0x0x7ff7715b21c3]
+	GetHandleVerifier [0x0x7ff771a8d2cd+3051437]
+	GetHandleVerifier [0x0x7ff771a87923+3028483]
+	GetHandleVerifier [0x0x7ff771aa58bd+3151261]
+	GetHandleVerifier [0x0x7ff7717d185e+185662]
+	GetHandleVerifier [0x0x7ff7717d971f+218111]
+	GetHandleVerifier [0x0x7ff7717bfb14+112628]
+	GetHandleVerifier [0x0x7ff7717bfcc9+113065]
+	GetHandleVerifier [0x0x7ff7717a6c98+10616]
+	BaseThreadInitThunk [0x0x7ffce039e8d7+23]
+	RtlUserThreadStart [0x0x7ffce179c34c+44]
+</status>
+</kw>
+<test id="s1-t1" name="Attendance Placeholder" line="13">
+<status status="FAIL" start="2025-07-18T01:28:21.226663" elapsed="0.001301">Parent suite setup failed:
+WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7717b6f95+76917]
+	GetHandleVerifier [0x0x7ff7717b6ff0+77008]
+	(No symbol) [0x0x7ff771569dea]
+	(No symbol) [0x0x7ff771566ba5]
+	(No symbol) [0x0x7ff771557879]
+	(No symbol) [0x0x7ff771559631]
+	(No symbol) [0x0x7ff771557b96]
+	(No symbol) [0x0x7ff7715575f6]
+	(No symbol) [0x0x7ff7715572ba]
+	(No symbol) [0x0x7ff771554e8b]
+	(No symbol) [0x0x7ff77155570c]
+	(No symbol) [0x0x7ff77156dd9a]
+	(No symbol) [0x0x7ff77161143e]
+	(No symbol) [0x0x7ff7715e846a]
+	(No symbol) [0x0x7ff77161065c]
+	(No symbol) [0x0x7ff7715e8243]
+	(No symbol) [0x0x7ff7715b1431]
+	(No symbol) [0x0x7ff7715b21c3]
+	GetHandleVerifier [0x0x7ff771a8d2cd+3051437]
+	GetHandleVerifier [0x0x7ff771a87923+3028483]
+	GetHandleVerifier [0x0x7ff771aa58bd+3151261]
+	GetHandleVerifier [0x0x7ff7717d185e+185662]
+	GetHandleVerifier [0x0x7ff7717d971f+218111]
+	GetHandleVerifier [0x0x7ff7717bfb14+112628]
+	GetHandleVerifier [0x0x7ff7717bfcc9+113065]
+	GetHandleVerifier [0x0x7ff7717a6c98+10616]
+	BaseThreadInitThunk [0x0x7ffce039e8d7+23]
+	RtlUserThreadStart [0x0x7ffce179c34c+44]
+</status>
+</test>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-07-18T01:28:21.229059" elapsed="2.109463"/>
+</kw>
+<status status="FAIL" start="2025-07-18T01:28:14.088329" elapsed="9.250193">Suite setup failed:
+WebDriverException: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.101)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7717b6f95+76917]
+	GetHandleVerifier [0x0x7ff7717b6ff0+77008]
+	(No symbol) [0x0x7ff771569dea]
+	(No symbol) [0x0x7ff771566ba5]
+	(No symbol) [0x0x7ff771557879]
+	(No symbol) [0x0x7ff771559631]
+	(No symbol) [0x0x7ff771557b96]
+	(No symbol) [0x0x7ff7715575f6]
+	(No symbol) [0x0x7ff7715572ba]
+	(No symbol) [0x0x7ff771554e8b]
+	(No symbol) [0x0x7ff77155570c]
+	(No symbol) [0x0x7ff77156dd9a]
+	(No symbol) [0x0x7ff77161143e]
+	(No symbol) [0x0x7ff7715e846a]
+	(No symbol) [0x0x7ff77161065c]
+	(No symbol) [0x0x7ff7715e8243]
+	(No symbol) [0x0x7ff7715b1431]
+	(No symbol) [0x0x7ff7715b21c3]
+	GetHandleVerifier [0x0x7ff771a8d2cd+3051437]
+	GetHandleVerifier [0x0x7ff771a87923+3028483]
+	GetHandleVerifier [0x0x7ff771aa58bd+3151261]
+	GetHandleVerifier [0x0x7ff7717d185e+185662]
+	GetHandleVerifier [0x0x7ff7717d971f+218111]
+	GetHandleVerifier [0x0x7ff7717bfb14+112628]
+	GetHandleVerifier [0x0x7ff7717bfcc9+113065]
+	GetHandleVerifier [0x0x7ff7717a6c98+10616]
+	BaseThreadInitThunk [0x0x7ffce039e8d7+23]
+	RtlUserThreadStart [0x0x7ffce179c34c+44]
+</status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Attendance" id="s1" pass="0" fail="1" skip="0">Attendance</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-07-18T01:28:14.419642" level="ERROR">[ DataDriver ] Error in robot file:
+  File "C:\Users\Admin\OneDrive\Desktop\Skillsync\skillsync-frontend\src\tests\attendance.robot", line 0</msg>
+<msg time="2025-07-18T01:28:14.419642" level="ERROR">In source file:
+  File "C:\Users\Admin\OneDrive\Desktop\Skillsync\skillsync-frontend\src\tests/../../data/attend_data.csv", line 0</msg>
+<msg time="2025-07-18T01:28:14.420780" level="ERROR">Calling method '_start_suite' of listener 'DataDriver' failed: ValueError: Unassigned requiered argument detected: ${student}.</msg>
+</errors>
+</robot>
